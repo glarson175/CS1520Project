@@ -10,6 +10,7 @@
 		<header>
 			<nav>
 			<h1>Gabriel Larson</h1>
+			<h2>A Grateful Believer in Jesus Christ</h2>
 			<ul>
 				<li onclick="return Home()">
 				<a href="">Home</a>
@@ -17,7 +18,7 @@
 				<li>
 				<a href="./docs/ResumeFall2016.docx" target=_blank>Resume</a>
 				</li>
-				<li>
+				<li onclick="return Gallery()">
 				<a href="">Cool Pictures</a>
 				</li>
 				<li>
@@ -117,14 +118,41 @@
 	</section>
 	
 	<section id="coolpics">
-		
+		<table id="gallery">
+			<tr>
+				<td><img src="./img/cool-eagle-animal-wallpaper-backgrounds-hd.jpg"/></td>
+				<td><img src="./img/DC.jpg"/></td> 
+				<td><img src="./img/awesome-background-wallpaper-1.jpg"/></td> 
+				<td><img src="./img/boba_fett_by_uncannyknack-d7r4mvm.jpg"/></td> 
+			</tr>
+			<tr>
+				<td><img src="./img/star-wars-wallpaper.jpg"/></td> 
+	
+				<td><img src="./img/Dragons-fantasy_00390495.jpg"/></td>
+				<td><img src="./img/4818_fire.jpg"/></td>
+				<td><img src="./img/green-lantern-corps.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img src="./img/I_cant_meanmug.jpg"/></td>
+				<td><img src="./img/panther_leadership_academy.jpg"/></td>
+
+				<td><img src="./img/marvel.jpg"/></td> 
+				<td><img src="./img/mi_familia.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img src="./img/images.jpg"/></td> 
+				<td><img src="./img/roomies.jpg"/></td> 
+				<td><img src="./img/3864316-2077840627-darth.jpg"/></td>
+				<td><img src="./img/swimming_makes_me_ripped.jpg"/></td>
+			</tr>
+			
+		</table>
 	</section>
 	<section id="contact">
 		<div id="form-container">
 		<form method="post" action="/" id="form" >
 			<fieldset class="hidden">
 				<input type="hidden" name="user" value="gsl13@pitt.edu">
-				<input type="hidden">
 				<div class="messagesent">
 					<p>
 						Successfully Submited
@@ -135,42 +163,42 @@
 				<div class="input-holder">
 					<label for="fname">First name:</label>
 					<input type="text" name="fname" id="firstname" required>
-					<br><br>
+					<br>
 				</div>
 				<div class="input-holder">
 					<label for="lname">Last name:</label>
 					<input type="text" name="lname" required>
-					<br><br>
+					<br>
 				</div>
 				<div class="input-holder">
-					<label for="occupation">Ocupation:</label>
-					<input type="text" name="Ocupation">
-					<br><br>
+					<label for="ocupation">Ocupation:</label>
+					<input type="text" name="ocupation">
+					<br>
 				</div>
 				<div class="input-holder">
-					<input type="checkbox" name="ComicLover" id="ComicLover"/>
-					<label for="ComicLover">Check if you LOVE comic books, trust me. Check it.</label>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email"/>
+					<br>
+				</div>
+				<div class="input-holder">
+					<label for="feedback">Why are you contacting me?</label>
+					<textarea rows="4" name="feedback" id="feedback"></textarea>
 				</div>
 			</fieldset>
 				<fieldset class="submit">
 					<input type="submit" value="Submit" id="submit" onclick="validate();">
 				</fieldset>
 		</form>
+		</div>
+		<div id="contactinfo">
+			<p>Gabriel Larson</p>
+			<p>(412) 996-2221</p>
+			<p>gabriel.s.larson@gmail.com</p>
+			<p>219 mckenzie drive </p>
+			<p>Pittsburgh, PA 15235</p>
+		</div>
 	</section>
-  
-	
-	<section id="section2">
-		
-			<p class="std-paragraph">
-			
-			</p>
-	</section>
-	
-	<section id="secction3">
-	   <p class="std-paragraph">
-		
-	  </p>
-	</section>
+
 	
 	
 	
