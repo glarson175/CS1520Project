@@ -2,11 +2,14 @@ body, html {
   font-size: 62.5%;
 	margin:0;
 	font-family:'helvetica';
+	color:white;
+	
 }
 #body{
-	
 	background-image:url("../img/cool-pictures-21.jpg");
-	background-size:cover;                      /* <------ */ 
+	background-size:100%;    
+	background-repeat:no-repeat;/* <------ */ 
+	background-color:black;
 }
 nav{
 	background-color:#002654;
@@ -14,16 +17,55 @@ nav{
 	text-align:center;
 }
 nav > h1{
-	color:white;
+	color:gold;
 	font-size: 3rem;
+	font-style:oblique;
+}
+div>img{
+	float: left;
+	margin: 10px;
+	border: 2px solid white;
+}
+#personalinfo{
 	
+	float:left;
+}
+#personal{
+	float:left;
 }
 
+#ul_holder{
+	margin-left:0px;
+	float:left;
+	clear:left;
+	
+}
+#ul_random{
+	float:right;
+}
+#boba{
+	float:right;
+	clear:right;
+}
+#things_i_love{
+	float:left;
+	text-align:right;
+}
+div>p, li{
+	font-size:1.5rem;
+}
 .std-paragraph{
   color:green;
   font-size: 2rem;
+	
+}
+#home{
+	margin:20px;
 }
 
+section1{
+	display:inline-block;
+}
 nav ul{
   list-style:none;
   padding:0;
@@ -43,14 +85,20 @@ nav ul li > a {
 nav ul li >a:hover{
  
  text-decoration:underline;
+ color:gold;
 }
 nav ul li >a:active{
-  color:blue;
+  color:gold;
 }
-
+footer{
+	clear:both;
+}
 footer p{
+	color:navy;
   font-size:2rem;
-  background-color:orange;
+  background-color:gold;
+	opacity: 0.85;
+	text-align:center;
 }
 footer ul {
   list-style:none;
